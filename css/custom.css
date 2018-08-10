@@ -394,7 +394,7 @@ header nav .dropdown-content li {
   min-height: 42px;
 }
 header nav .dropdown-content li > a, header nav .dropdown-content li > span {
-  color: #2196f3;
+  color: #000;
   scroll-behavior: inherit;
   padding: 16px;
   margin-top: 0px;
@@ -402,7 +402,7 @@ header nav .dropdown-content li > a, header nav .dropdown-content li > span {
 header nav .dropdown-content li > a:hover, header nav li.active .dropdown-content a, header nav.white ul li .dropdown-content a:hover, header nav.white ul li.active .dropdown-content a {
   border: none;
   background: transparent;
-  color: #2196f3;
+  color: #000;
   margin-top: 0px;
 }
 header nav .nav-wrapper i, header nav a.button-collapse, header nav a.button-collapse i {
@@ -1657,7 +1657,7 @@ header.inside-header.image-header {
   transition: all .3s;
 }
 .portfolio .items-list .item .caption {
-  background-color: rgba(63, 81, 181, 0.8);
+  background-color: rgba(255, 238, 0, 0.67);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -1770,7 +1770,7 @@ header.inside-header.image-header {
   overflow: hidden;
   left: 0;
   top: 0;
-  background-color: #3f51b5;
+  background-color: #000;
   min-height: 100%;
   min-width: 100%;
   width: auto;
@@ -1778,6 +1778,7 @@ header.inside-header.image-header {
   z-index: 99999;
   text-align: center;
   color: #fff;
+    opacity: 0.8;
 }
 .overlay .preloader-wrapper {
   position: absolute;
@@ -2187,6 +2188,11 @@ footer .footer-copyright a:hover {
 .tblack
 {
     color: black !important;
+}
+
+.mtm60
+{
+    margin-top: -60px;
 }
 
 /*# sourceMappingURL=custom.css.map */

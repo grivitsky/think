@@ -31,7 +31,7 @@
   <link href="img/ipad-favicon@2x.png" rel="apple-touch-icon" sizes="152x152" />
 
   <!-- MATERIALIZE CSS -->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
   
   <!-- FONTAWESOME -->
   <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" media="screen,projection">
@@ -94,7 +94,7 @@
             <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="left hide-on-med-and-down">
               <li class="active"><a class="dropdown-button" href="#!" data-activates="home">Курсы<i class="mdi-hardware-keyboard-arrow-down right"></i></a>
-                <ul id="home" class="dropdown-content">
+                <ul id="home" class="dropdown-content tblack">
                   <li class="active"><a href="index.html">Курсы</a></li>
                   <li><a href="#">Курс тип 1</a></li>
                   <li><a href="#">Курстип 2</a></li>
@@ -119,18 +119,20 @@
                 </ul>
               </li>              
             </ul>
-              <ul>
-                    <li class="right"><a class="dropdown-button" href="#!"><div style="line-height: 3em; margin: 0; padding: 0;"> <img src="img/author01.jpg" style="width: 3em; border-radius: 100px;"></div> </a>
-                <li class="right"><a class="dropdown-button" href="#!" data-activates="blog"><div style="line-height: 3em; margin: 0; padding: 0;">Александр Петров</div> </a>
-              
-                <ul id="blog" class="dropdown-content">
+               <ul class="hide-on-med-and-down" >
+                    <li class="right active" ><a class="dropdown-button" href="#!"><div style="line-height: 3em; margin: 0; padding: 0; height: 39px;"> <img src="img/author01.jpg" style="width: 3em; border-radius: 100px; "></div> </a>
+                        </li>
+                  <li class="right active"><a class="dropdown-button" href="#!" data-activates="blog"><div style="line-height: 3em; margin: 0; padding: 0; ">Александр Петров</div> </a>
+                        <ul id="blog" class="dropdown-content">
                   <li><a href="#">Закладки</a></li>
                   <li><a href="#">Сохраненные</a></li>
                   <li class="divider"></li>
                   <li><a href="#">Настройки</a></li>
                   <li><a href="#">Выход</a></li>
                 </ul>
-              </li>
+                         </li>
+                
+             
             </ul>
             <!-- Small Screen Side Nav -->
             <ul id="mobile-nav" class="side-nav">
@@ -166,7 +168,7 @@
   <div class="section z-depth-1" id='services'>   
     <div class="container">
         <div class="myCourses" style="margin-bottom:150px;">
-         <h4 class="blue-text">Мои курсы</h4>
+         <h4>Мои курсы</h4>
             <div class="portfolio">
      
       <!-- Filters -->
@@ -176,6 +178,7 @@
             <li class="tab col s3"><a class="grey-text text-lighten-1" href="#" data-filter="*" class="active">Все</a></li>
             <li class="tab col s3"><a class="grey-text text-lighten-1" href="#" data-filter=".t1">type1</a></li>
             <li class="tab col s3"><a class="grey-text text-lighten-1" href="#" data-filter=".t2">type2</a></li>
+            <li class="tab col s3"><a class="grey-text text-lighten-1" href="#" data-filter=".t3">type3</a></li>
             <li class="tab col s3"><a class="grey-text text-lighten-1" href="#" data-filter=".t3">type3</a></li>
           </ul>
         </div>
@@ -249,7 +252,7 @@
         </div>
         
         <div class="myCourses" >
-         <h4 class="blue-text">Доступные курсы</h4>
+         <h4>Доступные курсы</h4>
             <div class="portfolio">
      
       <!-- Filters -->
@@ -334,20 +337,6 @@
 
   
 
-
-  <!-- Floating btn -->
-  <div class="fixed-action-btn">
-    <a class="btn-floating btn-large pink accent-2">
-      <i class="mdi-content-add"></i>
-    </a>
-    <ul>
-      <li><a class="btn-floating red"><i class="large mdi-editor-insert-chart"></i></a></li>
-      <li><a class="btn-floating yellow darken-1"><i class="large mdi-editor-format-quote"></i></a></li>
-      <li><a class="btn-floating green"><i class="large mdi-editor-publish"></i></a></li>
-      <li><a class="btn-floating blue"><i class="large mdi-editor-attach-file"></i></a></li>
-    </ul>
-  </div>
-  <!--/ Floating btn -->
 <!-- Footer -->
   <footer class="page-footer z-depth-1 grey darken-3">
     <div class="container">
@@ -364,7 +353,7 @@
                   <input id="email" type="email" name="EMAIL" class="validate email" id="mce-EMAIL">
                   <label for="email" class="">Ваш E-mail <span class="asterisk">*</span></label>
                 </div>
-                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="waves-effect waves-light btn pink accent-2 left">Подписаться</button>
+                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="waves-effect waves-light btn pink accent-2 left tblack">Подписаться</button>
               </div>
             </div>
           </form>
