@@ -564,7 +564,7 @@
 }
 
 .indigo.lighten-1 {
-  background-color: #5c6bc0 !important;
+  background-color: #000 !important;
 }
 
 .indigo-text.text-lighten-1 {
@@ -684,11 +684,12 @@
 }
 
 .blue {
-  background-color: #2196F3 !important;
+  background-color: #ffee00 !important;
+  color: #000 !important;
 }
 
 .blue-text {
-  color: #2196F3 !important;
+  color: #ffee00 !important;
 }
 
 .blue.darken-1 {
