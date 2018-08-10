@@ -827,7 +827,7 @@ header.inside-header.image-header {
   text-transform: uppercase;
 }
 #services .m4 {
-  visibility: hidden;
+  visibility: visible;
 }
 
 #last_posts {
@@ -2193,6 +2193,11 @@ footer .footer-copyright a:hover {
 .mtm60
 {
     margin-top: -60px;
+}
+
+.mb10
+{
+    margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=custom.css.map */
