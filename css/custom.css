@@ -1657,7 +1657,7 @@ header.inside-header.image-header {
   transition: all .3s;
 }
 .portfolio .items-list .item .caption {
-  background-color: rgba(255, 238, 0, 0.67);
+  background-color: rgba(0, 0, 0, 0.67);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -2200,4 +2200,12 @@ footer .footer-copyright a:hover {
     margin-bottom: 10px;
 }
 
+.fs64
+{
+    font-size: 5rem !important;
+}
+.mt24
+{
+    margin-top: 24px !important;
+}
 /*# sourceMappingURL=custom.css.map */
