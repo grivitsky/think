@@ -7,7 +7,7 @@
 <!-- the "no-js" class is for Modernizr. -->
 
 <head>
-    <title>Профиль -- THiNK</title>
+    <title>Статистика -- THiNK</title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
@@ -87,7 +87,7 @@
     </div>
 
     <!-- Header -->
-    <header class="indigo inside-header">
+    <header>
         <!-- Navbar Container -->
         <div class="navbar-fixed">
             <!-- nav -->
@@ -98,15 +98,15 @@
                         <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
                         <ul class="left hide-on-med-and-down">
                             <li><a class="dropdown-button" href="#!" data-activates="home">Курсы<i class="mdi-hardware-keyboard-arrow-down right"></i></a>
-                                <ul id="home" class="dropdown-content">
-                                    <li class="active"><a href="index.html">Курсы</a></li>
+                                <ul id="home" class="dropdown-content tblack">
+                                    <li ><a href="index.html">Курсы</a></li>
                                     <li><a href="#">Курс тип 1</a></li>
                                     <li><a href="#">Курстип 2</a></li>
                                     <li><a href="#">Курс тип 3</a></li>
                                 </ul>
                             </li>
 
-                            <li><a class="dropdown-button" href="#!" data-activates="pages">Статистика<i class="mdi-hardware-keyboard-arrow-down right"></i></a>
+                            <li class="active"><a class="dropdown-button" href="#!" data-activates="pages">Статистика<i class="mdi-hardware-keyboard-arrow-down right"></i></a>
                                 <ul id="pages" class="dropdown-content">
                                     <li><a href="#">Статистика</a></li>
                                     <li><a href="#">Статистика тип 2</a></li>
@@ -124,12 +124,12 @@
                             </li>
                         </ul>
                         <ul class="hide-on-med-and-down">
-                            <li class="right active">
+                            <li class="right">
                                 <a class="dropdown-button" href="#!">
                                     <div style="line-height: 3em; margin: 0; padding: 0; height: 39px;"> <img src="img/author01.jpg" style="width: 3em; border-radius: 100px; "></div>
                                 </a>
                             </li>
-                            <li class="right active">
+                            <li class="right">
                                 <a class="dropdown-button" href="#!" data-activates="blog">
                                     <div style="line-height: 3em; margin: 0; padding: 0; ">Александр Петров</div>
                                 </a>
@@ -158,13 +158,13 @@
                         </ul>
                         <!--/ Small Screen Side Nav -->
                     </div>
-                    <!--<form class="hide-on-med-and-down">
-            <div class="input-field">
-              <input id="search" type="search" required>
-              <label for="search" class="search-label"><i class="material-icons">search</i></label>
-              <i class="material-icons">close</i>
-            </div>
-          </form>-->
+                    <form class="hide-on-med-and-down">
+                        <div class="input-field">
+                            <input id="search" type="search" required>
+                            <label for="search" class="search-label"><i class="material-icons">search</i></label>
+                            <i class="material-icons">close</i>
+                        </div>
+                    </form>
                 </div>
             </nav>
             <!--/ nav -->
@@ -172,93 +172,134 @@
         <!--/ Navbar Container -->
     </header>
     <!--/ Header -->
-
-
-    <!-- About Me Container -->
-    <div class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col s12 m12">
-                    <!-- Page Container -->
-                    <div class="page-container mtm60">
+    <div id="modal2" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4>Информация о курсе</h4>
+            <div class="col s12 m12">
+                <!-- Blog List -->
+                <div class="page-container">
+                    <!-- post type image -->
+                    <div class="post post-type-image">
                         <div class="row">
-                            <div class="col s12 m12">
-                                <!-- About me -->
-                                <div class="about-me">
-                                    <h4>Мой профиль</h4>
-                                    <div class="row">
-                                        <div class="col s12 m4"><img src="img/me.jpg" class="materialboxed responsive-img"></div>
-                                        <div class="col s12 m8">
-                                            <h5>Александр Петров</h5>
-                                            <h6>Новичок</h6>
-                                            <br>
-                                            <div class="row">
-                                                <p class="col m6">
-                                                    Duis id lorem nec arcu vulputate ullamcorper. Mauris dictum dapibus sem eget ultrices. Aenean sagittis odio orci, ac consequat neque elementum id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut tempor a leo non mollis. Cras pharetra libero in purus blandit.
-                                                </p>
-                                                <p class="col m6">
-                                                    Praesent augue sapien, blandit sed justo ut, consectetur rhoncus dui. Donec vestibulum, tellus a consectetur interdum, risus mauris bibendum risus, sit amet dictum urna augue rhoncus augue. Aenean non mattis mi. Nunc dictum ipsum eget elit fringilla sollicitudin. In lobortis vitae nisi nec facilisis omis unde duis donec.
-                                                </p>
-                                            </div>
+                            <div class="col s12 m4">
+                                <div class="post-img"><a href="single-post-sidebar.html"><img src="img/blog/small/01.jpg" class="responsive-img"></a></div>
 
-                                        </div>
-                                    </div>
-                                </div><br>
-                                <!--/ About me -->
-
-                                <!-- Skills Charts -->
-                                
-                                <!-- Skills Charts -->
-
-                                <div id="modal2" class="modal modal-fixed-footer">
-                                    <div class="modal-content">
-                                        <h4>Информация о курсе</h4>
-                                        <div class="col s12 m12">
-                                            <!-- Blog List -->
-                                            <div class="page-container">
-                                                <!-- post type image -->
-                                                <div class="post post-type-image">
-                                                    <div class="row">
-                                                        <div class="col s12 m4">
-                                                            <div class="post-img"><a href="single-post-sidebar.html"><img src="img/blog/small/01.jpg" class="responsive-img"></a></div>
-
-                                                        </div>
-                                                        <div class="col s12 m8">
-                                                            <h3 class="no-margin-top "><a href="single-post-sidebar.html" class="tblack">Теория относительности</a></h3>
-                                                            <div class="post-meta grey-text mb10">
-                                                                <span class="author"><i class="mdi-social-person"></i> От : <a href="about-me.html">Альберт Эйнштейн</a></span>
-                                                                <span class="date"><i class="mdi-device-access-time"></i> <a href="#!" class="grey-text">Февраль 12, 2018</a></span>
-                                                            </div>
-                                                            <div class="post-short grey-text text-darken-2">
-                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                                            </div>
-                                                            <div class="post-btn">
-                                                                <a class="waves-effect waves-blue btn-flat grey-text lighten-2">32 Лайка</a>
-                                                                <a class="waves-effect waves-blue btn-flat grey-text lighten-2">15 Коментариев</a>
-                                                                <a class="waves-effect waves-blue btn-flat orange-text accent-2 dropdown-button btn" data-activates='dropdown1'><i class="mdi-content-reply left"></i></a>
-                                                                <!-- Share Dropdown Structure -->
-                                                                <ul id='dropdown1' class='dropdown-content share-dropdown'>
-                                                                    <li><a href="#!"><i class="fa fa-facebook"></i> Facebook</a></li>
-                                                                    <li><a href="#!"><i class="fa fa-vk"></i> VK</a></li>
-                                                                    <li><a href="#!"><i class="fa fa-instagram"></i> Instagram</a></li>
-                                                                </ul>
-                                                                <a class="right favorite" id="active"><i class="mdi-action-favorite"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                            </div>
+                            <div class="col s12 m8">
+                                <h3 class="no-margin-top "><a href="single-post-sidebar.html" class="tblack">Теория относительности</a></h3>
+                                <div class="post-meta grey-text mb10">
+                                    <span class="author"><i class="mdi-social-person"></i> От : <a href="about-me.html">Альберт Эйнштейн</a></span>
+                                    <span class="date"><i class="mdi-device-access-time"></i> <a href="#!" class="grey-text">Февраль 12, 2018</a></span>
+                                </div>
+                                <div class="post-short grey-text text-darken-2">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </div>
+                                <div class="post-btn">
+                                    <a class="waves-effect waves-blue btn-flat grey-text lighten-2">32 Лайка</a>
+                                    <a class="waves-effect waves-blue btn-flat grey-text lighten-2">15 Коментариев</a>
+                                    <a class="waves-effect waves-blue btn-flat orange-text accent-2 dropdown-button btn" data-activates='dropdown1'><i class="mdi-content-reply left"></i></a>
+                                    <!-- Share Dropdown Structure -->
+                                    <ul id='dropdown1' class='dropdown-content share-dropdown'>
+                                        <li><a href="#!"><i class="fa fa-facebook"></i> Facebook</a></li>
+                                        <li><a href="#!"><i class="fa fa-vk"></i> VK</a></li>
+                                        <li><a href="#!"><i class="fa fa-instagram"></i> Instagram</a></li>
+                                    </ul>
+                                    <a class="right favorite" id="active"><i class="mdi-action-favorite"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Решать</a>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Решать</a>
+        </div>
+    </div>
+
+    <!-- Our Services Section -->
+    <div class="section z-depth-1" id='services'>
+        <div class="container">
+
+            <div class="myCourses" style="margin-bottom:80px;">
+                <div class="charts">
+                    <h4 style="margin-bottom:50px;">Статистика</h4>
+                    <div class="row">
+                        <div class="col m4 s12">
+                            <div class="pie-chart-container">
+                                <div class="pie-chart default" data-percent="90" data-size="220" data-line-width="3" data-track-color="#edf4f6" data-bar-color="#2196f3">
+                                    <div class="pie-chart-details">
+                                        <h1><span class="value"></span>%</h1>
+                                        <h5>Математика</h5>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
 
-                                <!-- My Portfolio -->
-                                <div class="portfolio">
+                        <div class="col m4 s12">
+                            <div class="pie-chart-container">
+                                <div class="pie-chart default" data-percent="84" data-size="220" data-line-width="3" data-track-color="#edf4f6" data-bar-color="#ff4081">
+                                    <div class="pie-chart-details">
+                                        <h1><span class="value"></span>%</h1>
+                                        <h5>Физика</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col m4 s12">
+                            <div class="pie-chart-container">
+                                <div class="pie-chart default" data-percent="65" data-size="220" data-line-width="3" data-track-color="#edf4f6" data-bar-color="#3b23f4">
+                                    <div class="pie-chart-details">
+                                        <h1><span class="value"></span>%</h1>
+                                        <h5>Программирование</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col m4 s12">
+                            <div class="pie-chart-container">
+                                <div class="pie-chart default" data-percent="42" data-size="220" data-line-width="3" data-track-color="#edf4f6" data-bar-color="#21f38a">
+                                    <div class="pie-chart-details">
+                                        <h1><span class="value"></span>%</h1>
+                                        <h5>Химия</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col m4 s12">
+                            <div class="pie-chart-container">
+                                <div class="pie-chart default" data-percent="12" data-size="220" data-line-width="3" data-track-color="#edf4f6" data-bar-color="#ffe240">
+                                    <div class="pie-chart-details">
+                                        <h1><span class="value"></span>%</h1>
+                                        <h5>Биология</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col m4 s12">
+                            <div class="pie-chart-container">
+                                <div class="pie-chart default" data-percent="74" data-size="220" data-line-width="3" data-track-color="#edf4f6" data-bar-color="#23ccf4">
+                                    <div class="pie-chart-details">
+                                        <h1><span class="value"></span>%</h1>
+                                        <h5>Русский язык</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                
+            </div>
+            <div class="portfolio">
                                     <h4>Пройденные курсы</h4>
                                     <div class="row no-margin-bottom">
                                         <div class="col s12 m8 offset-m2 ">
@@ -351,15 +392,11 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/ Page Container -->
-                </div>
-            </div>
+
         </div>
     </div>
-    <!--/ About Me Container -->
+    <!--/ Our Services Section -->
+
 
 
     <!-- Footer -->
@@ -391,7 +428,6 @@
                 © Copyright - THiNK - powered by <a href="" target="_blank">KAPUSTA</a>
             </div>
         </div>
-
     </footer>
     <!--/ Footer -->
 
