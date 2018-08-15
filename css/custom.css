@@ -2180,3 +2180,20 @@ footer .footer-copyright a:hover {
 {
     margin-top: 24px !important;
 }
+
+
+.tabmod
+{
+    font-weight: 800 !important;
+    font-size: 2em !important;
+    background-color: #e2e2e2;
+}
+
+.answerfalse
+{
+    background-color: #ff8b8b;
+}
+.answerright
+{
+    background-color: #9dff8b;
+}
